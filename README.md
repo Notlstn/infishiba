@@ -17,7 +17,7 @@ Aplikacja została napisana na bazie React, z wykorzystaniem:
 -   shortid do generowania unikalnych kluczy ID
 -   wykorzystano standardowy routing oraz Redux
 
-**(demo)[https://infishiba.mojewronki.pl/]**
+**[demo](https://infishiba.mojewronki.pl/)**
 
 ### Uwaga odnośnie API zdjęć Shiby
 
