@@ -1,0 +1,32 @@
+.Workbench {
+    background: #d9f2ff;
+    box-shadow: 5px 0px 20px 0px rgba(0, 0, 0, 0.4);
+    padding-bottom: 10px;
+    min-height: 100vh;
+}
+
+.WorkbenchNavigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+    height: 60px;
+    background: #a5bdfd;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding-right: 10px;
+}
+
+.AppWrapp {
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.3s;
+}
+
+.AppWrapp--isOpen {
+    transform: translate3d(-250px, 0, 0);
+}

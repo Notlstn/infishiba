@@ -1,0 +1,92 @@
+.UserInterface {
+    display: table;
+    width: 100%;
+    color: #fff;
+}
+.UserInterface__image {
+    background: #fff;
+    padding: 4px;
+    border-radius: 6px;
+    display: table-cell;
+    height: 80px;
+    width: 80px;
+    vertical-align: top;
+}
+.UserInterface__image img {
+    display: block;
+}
+
+.UserInterface__info {
+    display: table-cell;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.UserInterface a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.UserInterface a:hover,
+.UserInterface a:focus,
+.UserInterface a:active {
+    text-decoration: underline;
+}
+
+.LoginInput,
+.PasswordInput {
+    margin-bottom: 10px;
+    color: #fff;
+}
+.LoginInput label,
+.PasswordInput label {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.LoginInput input,
+.PasswordInput input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-bottom: 5px solid transparent;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.LoginInput input:focus,
+.PasswordInput input:focus {
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+    border-bottom: 5px solid #fff;
+}
+
+.LoginButton {
+    width: 100%;
+    text-align: center;
+    border-radius: 6px;
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 6px;
+}
+.SmallInfo {
+    display: block;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 11px;
+}
+
+.UserInterface__featured {
+    display: block;
+    background: #fff;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 0;
+    color: #000;
+    border-radius: 6px;
+    text-decoration: none;
+}

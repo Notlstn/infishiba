@@ -1,0 +1,17 @@
+.Sitebar {
+    position: absolute;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px 27px 10px 10px;
+}
+.nice_protip {
+    margin: 0 0 20px 0;
+    display: block;
+    color: #fff;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}

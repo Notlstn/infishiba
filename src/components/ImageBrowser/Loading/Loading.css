@@ -1,0 +1,7 @@
+.LoadingIndicator {
+    margin: 20px auto;
+}
+.LoadingIndicator svg {
+    display: block;
+    margin: 8px auto;
+}

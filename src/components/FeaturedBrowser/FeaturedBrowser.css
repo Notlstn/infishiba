@@ -1,0 +1,16 @@
+.FeaturedBrowser__empty {
+    text-align: center;
+}
+.FeaturedBrowser__empty a {
+    display: inline-block;
+    color: #000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    background: #fff;
+}
+.FeaturedBrowser__empty a:hover,
+.FeaturedBrowser__empty a:focus,
+.FeaturedBrowser__empty a:active {
+    color: #000;
+}
