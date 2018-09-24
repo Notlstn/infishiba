@@ -12,7 +12,7 @@ import { BrowserRouter } from "react-router-dom";
 const store = createStore(reducer);
 
 const app = (
-    <BrowserRouter basename="https://notlstn.github.io/infishiba/">
+    <BrowserRouter>
         <App />
     </BrowserRouter>
 );
