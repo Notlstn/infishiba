@@ -2,6 +2,12 @@
     display: table;
     width: 100%;
     color: #fff;
+    position: sticky;
+    top: 68px;
+}
+.LoginForm {
+    position: sticky;
+    top: 68px;
 }
 .UserInterface__image {
     background: #fff;
@@ -89,4 +95,6 @@
     color: #000;
     border-radius: 6px;
     text-decoration: none;
+    position: sticky;
+    top: 166px;
 }

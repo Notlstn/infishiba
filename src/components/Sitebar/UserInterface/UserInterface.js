@@ -44,7 +44,7 @@ export class UserInterface extends Component {
 
     render() {
         let output = (
-            <form onSubmit={this._handleForm}>
+            <form onSubmit={this._handleForm} className="LoginForm">
                 <div className="LoginInput">
                     <label>Login</label>
                     <input type="text" value={this.state.login} onChange={event => this._handleInput(event, "login")} />

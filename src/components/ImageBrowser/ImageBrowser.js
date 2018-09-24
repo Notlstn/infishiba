@@ -9,6 +9,14 @@ import Aux from "../../hoc/_Aux/_Aux";
 import { connect } from "react-redux";
 import db from "../../db";
 
+Object.defineProperty(Array.prototype, "flat", {
+    value: function(depth = 1) {
+        return this.reduce(function(flat, toFlatten) {
+            return flat.concat(Array.isArray(toFlatten) && depth - 1 ? toFlatten.flat(depth - 1) : toFlatten);
+        }, []);
+    }
+});
+
 export class ImageBrowser extends Component {
     state = {
         images: [],
